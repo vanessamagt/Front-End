@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="Bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+
+<!-- CSS only -->
+<link href="Bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
 
 <script src="https://kit.fontawesome.com/3e528efe9c.js" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="style.css">
+
     <title>MAQUETA</title>
 </head>
 <body>
+
+<!--seccion navbar-->
+<section id="navbar">
     <nav class="navbar navbar-expander-log bg-black">
      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank">
             <img src="img/Argentinaprograma.png" alt="logo Argentina Programa" class="w-100">
         </a>
 
@@ -21,40 +29,60 @@
         <li class="list-group-item"><i class="fa-brands fa-linkedin"></i></li>
         <li class="list-group-item"><i class="fa-brands fa-instagram"></i></li>
         <li class="list-group-item"><i class="fa-brands fa-github"></i></li>
-        <li class="list-group-item"><i class="fa-solid fa-user-lock"></i></li>
+
     </ul>
-
-
+   
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">
+        <i class="fa-solid fa-lock"></i>
+    </button>
+    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">
+        <i class="fa-solid fa-lock-open"></i>
+    </button>
+ 
 
      </div>
     </nav>
-<!-- <br> -->
-    <!-- <audio src="audiosabina.mp3" controls></audio> -->
-
-    <!--redes sociales-->
-    <section>
-        <h2>Redes Sociales</h2>
-    
-
-    </section>
+</section>
 
  <!--sobre mi-->
 
-<section>
-    <h2>Sobre Mi</h2>
-    <div>
-        <img src="img/imagenpropia.jpg" alt="alt" width="300" height="300"> <br>
-    </div>
-    <div>
-        <a href="https://google.com " target="_blank">CLICK</a><br>
-    </div>
-    <div>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, iste. Cumque velit deserunt nulla quidem aliquid voluptatem, modi aperiam omnis nam. Molestias dolore architecto veritatis voluptates vel qui reiciendis voluptas!
-        </p>
-    </div>
+<section id="sobre" class="border">
+    <h2 class="text-center">Sobre Mi</h2>
+<div class="container text-center">
+    <div class="row align-items-start">
+        <div class="col-6">
+                    <h1 class="nombrePerfil">Vanesa Magali Trobbiani</h1> <br>
+                    <h4>Diseño web</h4> <br>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, iste. Cumque velit deserunt nulla quidem
+                        aliquid voluptatem, modi aperiam omnis nam. Molestias dolore architecto veritatis voluptates vel qui reiciendis
+                        voluptas!
+                    </p>
+        </div>
 
+        <div class="col-6">
+            <img src="img/imagenpropia.jpg" alt="imagen-de-Vane" title="imagen de Vanesa" id="imgpropia">
+        </div>
+    </div>
+</div>   
 </section>
+
+<section id="editarsobre" class="bg-dark p-3">
+<div class="container text-center">
+    <div class="row align-items-start">
+        <div class="col">
+          <button class="btn btn-light">Editar Imagen</button>
+        </div>
+        <div class="col">
+            <button class="btn btn-light">Editar Nombre</button>
+        </div>
+        <div class="col">
+        <button class="btn btn-light">Editar info</button>
+        </div>
+    </div>
+</section>
+
 
 <!--Educacion-->
 
@@ -70,6 +98,7 @@
     <h2>Experiencia laborales</h2>
 
 </section>
+
 
  <!--habilidades-->
 
@@ -110,19 +139,49 @@
         <input type="reset" value="Borrar">
         <br>
         <br>
-        <label for="">Usuario</label>
-        <input type="text" placeholder="Aquí escribí tu usuario">
-        <br>
-        <label for="">Contraseña</label>
-        <input type="password" placeholder="Aquí escribí tu contraseña">
+        
 
          <button type="submit">Enviar</button>
 
 </section>
 
+<!--MODALES-->
+<!-- Modal login -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="loginModalLabel">login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+       <form class="row g-3">
+    <div class="col-auto">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail" >
+    </div>
+    <div class="col-auto">
+        <label for="inputPassword2" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword2">
+    </div>
+   
+       </form>
+
+           </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-primary">Ingresar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
+
+<script src="Bootstrap/bootstrap-5.2.2-dist/js/bootstrap.min.js"
+    crossorigin="anonymous"></script>
 
 </body>
 </html>

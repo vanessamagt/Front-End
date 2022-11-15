@@ -1,3 +1,19 @@
 .bg-black{
 background-color: #000000;
 }
+
+body{
+    background-color: rgb(252, 193, 222);
+}
+
+.nombrePerfil{
+    font-size: 4rem;
+    border-style: solid;
+}
+
+#imgpropia{
+    width: 400px;
+    height: 450px;
+    border-style: solid;
+}
+
