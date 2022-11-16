@@ -1,19 +1,33 @@
 .bg-black{
 background-color: #000000;
 }
-
 body{
     background-color: rgb(252, 193, 222);
 }
-
 .nombrePerfil{
     font-size: 4rem;
     border-style: solid;
 }
-
 #imgpropia{
     width: 400px;
     height: 450px;
     border-style: solid;
 }
+.list-group{
+    --bs-list-group-bg:transparent;   
+}
+.fa-brands:hover{
+    background-color: #ff1493;
+}
 
+
+
+
+
+
+
+footer.bg-black{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
