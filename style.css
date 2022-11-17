@@ -20,7 +20,43 @@ body{
     background-color: #ff1493;
 }
 
+h5{ 
+    padding: 5%;
+    
+}
+#imgcall{
+    transition: 400rem;
+    box-shadow: 10px 10px 25px #000000;
+    padding: 5%;
+    margin: 6%;
+    float: left;
+}
 
+#imgcall:hover{
+    opacity: 0.3;
+}
+
+#imgalpha{
+    transition: 400rem;
+        box-shadow: 10px 10px 25px #000000;
+        padding: 5%;
+        margin: 8%;
+        float: right;
+}
+#imgalpha:hover{
+    opacity: 0.3;
+}
+
+#imgmujerrural{
+    transition: 400rem;
+        box-shadow: 10px 10px 25px #000000;
+        padding: 5%;
+        margin: 12%;
+}
+
+#imgmujerrural:hover{
+    opacity: 0.3;
+}
 
 
 
