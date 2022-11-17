@@ -2,7 +2,7 @@
 background-color: #000000;
 }
 body{
-    background-color: rgb(252, 193, 222);
+    background-color: rgb(224, 198, 211);
 }
 .nombrePerfil{
     font-size: 4rem;
@@ -20,44 +20,65 @@ body{
     background-color: #ff1493;
 }
 
-h5{ 
-    padding: 5%;
-    
+h4{
+    font-size: 18px;
+    display: block;
+    text-align: center;
+   
+}
+#callcenter1{
+    font-size: 18px;
+    text-align: center;
 }
 #imgcall{
     transition: 400rem;
     box-shadow: 10px 10px 25px #000000;
-    padding: 5%;
-    margin: 6%;
-    float: left;
-}
+    padding: 10px;
+    margin: 10px;
 
+}
 #imgcall:hover{
     opacity: 0.3;
 }
 
-#imgalpha{
-    transition: 400rem;
-        box-shadow: 10px 10px 25px #000000;
-        padding: 5%;
-        margin: 8%;
-        float: right;
+
+#alphagroup2 {
+    font-size: 18px;
+        text-align: center;
+        padding: 35px;
+
 }
-#imgalpha:hover{
+#imagizq{
+       
+        transition: 400rem;
+         box-shadow: 10px 10px 25px #000000;
+        padding: 10px;
+            margin: 10px;
+} 
+#imagizq:hover{
     opacity: 0.3;
+}
+
+#agropec3{
+    font-size: 18px;
+        text-align: center;
 }
 
 #imgmujerrural{
     transition: 400rem;
-        box-shadow: 10px 10px 25px #000000;
-        padding: 5%;
-        margin: 12%;
+    box-shadow: 10px 10px 25px #000000;
+    padding: 5%;
+    margin: 6%; 
 }
-
 #imgmujerrural:hover{
     opacity: 0.3;
 }
 
+#carouselExampleControls{
+    width: 50%;
+    height: 50%;
+
+}
 
 
 
