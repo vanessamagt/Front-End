@@ -77,9 +77,12 @@ h4{
 #carouselExampleControls{
     width: 50%;
     height: 50%;
-
 }
-
+.Email, .Phone{
+ font-size: 18px;
+ 
+ text-align: center;
+}
 
 
 
