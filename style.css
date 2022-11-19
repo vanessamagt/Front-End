@@ -95,17 +95,17 @@ h4{
     justify-content: center;
 }
 
-.Phone, .Email{
+button.Phone, button.Email{
     font-size: 20px;
     display: inline-flex;
     text-align: center;
     justify-content: center;
-    background-color: #000000;
+    background-color: #fa86c4;
     color: white;
     font-family: sans-serif;
     width: 100px;
     height: 30px;
-   border-radius: 15px;
+   border-radius: 20px;
 }
 
 footer.bg-black{
