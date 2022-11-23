@@ -17,16 +17,23 @@ body{
     border-style: solid;
 }
 
-.list-group{
-    --bs-list-group-bg:transparent;   
+.list-group {
+    --bs-list-group-bg: transparent;
 }
 
-.fa-brands:hover{
-    background-color: #ff1493;
+.fa-brands.fa-linkedin.fa-2x:hover{
+     background-color: blue;
 }
 
-h4{
- 
+.fa-brands.fa-instagram.fa-2x:hover{
+    background-color: deeppink;
+}
+
+.fa-brands.fa-github.fa-2x:hover{
+    background-color: chartreuse;
+}
+
+h4 {
     font-size: 18px;
     display: block;
     text-align: center;  
@@ -50,14 +57,13 @@ h4{
 
 #alphagroup2 {
     font-size: 18px;
-        text-align: center;
+    text-align: center;
         padding: 35px;
 }
 
-#imagizq{
-       
-        transition: 400rem;
-         box-shadow: 10px 10px 25px #000000;
+#imagizq {
+    transition: 400rem;
+        box-shadow: 10px 10px 25px #000000;
         padding: 10px;
         margin: 10px;
 } 
@@ -87,6 +93,18 @@ h4{
     height: 50%;
 }
 
+.progress-bar{
+    background-color: darkorchid;
+    text-align: center;
+    --bs-progress-height: 1.5rem;
+}
+
+.progress-bar.bg-blue.color1{
+    background-color: cornflowerblue;
+    text-align: center;
+     --bs-progress-height: 1.5rem;
+}
+
 #contact{
     display: flex;
     width: 1200px;
@@ -105,7 +123,7 @@ button.Phone, button.Email{
     font-family: sans-serif;
     width: 100px;
     height: 30px;
-   border-radius: 20px;
+    border-radius: 20px;
 }
 
 .link{
