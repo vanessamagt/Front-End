@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- CSS only -->
-<link href="Bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet"
+<link href="./Bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet"
     crossorigin="anonymous">
 
 <script src="https://kit.fontawesome.com/3e528efe9c.js" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="./assets/css/style.css">
 
     <title>MAQUETA</title>
 </head>
@@ -21,8 +21,8 @@
 <section id="navbar">
     <nav class="navbar navbar-expander-log bg-black">
     <div class="container-fluid">
-        <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank">
-            <img src="assets/css/img/Argentinaprograma2022.png" alt="logo Argentina Programa" class="w-100">
+        <a class="navbar-brand" href="./index.html" target="_blank">
+            <img src="./assets/css/img/Argentinaprograma2022.png" alt="logo Argentina Programa" class="w-100">
         </a>
         <ul class="list-group list-group-horizontal">
             <li class="list-group-item"><a href="https://linkedin.com" target="_blank"><i
@@ -33,7 +33,7 @@
                         class="fa-brands fa-github fa-2x text-white"></i></a></li>
         <li class="list-group-item">
             <!-- Button que abre el login -->
-            <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-lock fa-2x text-white"></i>
+            <a href="./login.html"><i class="fa-solid fa-lock fa-2x text-white"></i></a>
         </li>
         </ul>
     </div>
@@ -61,7 +61,7 @@
                     </p>
             </div>
             <div class="col-6 pb-4">
-            <img src="assets/css/img/imagenpropia.jpg" alt="imagen-de-Vane" title="imagen de Vanesa" id="imgpropia">
+            <img src="./assets/css/img/imagenpropia.jpg" alt="imagen-de-Vane" title="imagen de Vanesa" id="imgpropia">
             </div>
             </div>
             </div>
@@ -82,7 +82,7 @@
                     </h5>
             </div>
             <div class="col-3">
-                <img src="assets/css/img/apexcallcenter.png" alt="imagencall" title="imgcenter" id="imgcall" width="250"
+                <img src="./assets/css/img/apexcallcenter.png" alt="imagencall" title="imgcenter" id="imgcall" width="250"
                     height="150">
             </div>
         
@@ -94,7 +94,7 @@
             </h5>
             </div>
                 <div class="col-3">
-                    <img src="assets/css/img/alphaclaro.png" alt="adminvane" id="imagizq" title="alphaclaro" width="250" height="150">
+                    <img src="./assets/css/img/alphaclaro.png" alt="adminvane" id="imagizq" title="alphaclaro" width="250" height="150">
                 </div>
 
             <div class="col-9 mt-3">
@@ -106,7 +106,7 @@
                 </h5>
                 </div>
                 <div class="col-3">
-                    <img src="assets/css/img/mujerrural.jpg" alt="vanerural" title="vanerural1" id="imgmujerrural" width="250"
+                    <img src="./assets/css/img/mujerrural.jpg" alt="vanerural" title="vanerural1" id="imgmujerrural" width="250"
                         height="150">
                 </div>
         </div>
@@ -123,13 +123,13 @@
                <div id="carouselExampleControls" class="carousel slide mt-3 pt-3" data-bs-ride="carousel">
                    <div class="carousel-inner">
                         <div class="carousel-item active">
-                         <img src="assets/css/img/coursera.jpg" class="d-block w-100" alt="coursera">
+                        <img src="./assets/css/img/coursera.jpg" class="d-block w-100" alt="coursera">
                        </div>
                         <div class="carousel-item">
-                         <img src="assets/css/img/egg.jpg" class="d-block w-100" alt="educacionegg">
+                        <img src="./assets/css/img/egg.jpg" class="d-block w-100" alt="educacionegg">
                          </div>
                         <div class="carousel-item">
-                         <img src="assets/css/img/argentpro2022.jpg" class="d-block w-100" alt="seprogramar">
+                        <img src="./assets/css/img/argentpro2022.jpg" class="d-block w-100" alt="seprogramar">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -205,16 +205,15 @@
 </section>
 
 <!--Contacto-->
-
-<section class="contacto text-center mt-3 pt-4">
+<section class="contacto mt-4 pt-3">
     <h2 class="text-center">Contacto</h2>
-    <div id="contact">
-        <h1><a href="#" class="link" target="_blank"><button class="Email">Email</button></a></h1>
-        <h1><a href="#" class="link" target="_blank"><button class="Phone">Phone</button></a></h1>
-    </div>
+<div class="contact mb-2 pb-3 justify-content-center d-flex">
+    <a href="#"><button type="button" class="btn btn-secondary Email" target="_blank">Email</a></button>
+    <a href="#"><button type="button" class="btn btn-primary Phone" target="_blank">Phone</a></button>
+</div>
 </section>
 
-<!--footer-->
+    <!--footer-->
 
 <footer class="bg-black text-white text-center fs-6">
     <div class="pt-3">
@@ -232,26 +231,26 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                    <label for="inputEmail" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail">
-                </div>
-                <div class="mb-3">
-                    <label for="inputPassword2" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="inputPassword2">
-                </div>
-            </form>
+                <form>
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword2" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword2">
+                    </div>
+                </form>
             </div>
             <div class="modal-footer">
-                <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal" >Ingresar</button>
+                <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
             </div>
         </div>
     </div>
 </div>
 
-
-<script src="Bootstrap/bootstrap-5.2.2-dist/js/bootstrap.min.js"
+<!--javascript-->
+<script src="./Bootstrap/bootstrap-5.2.2-dist/js/bootstrap.min.js"
     crossorigin="anonymous"></script>
 
 </body>
