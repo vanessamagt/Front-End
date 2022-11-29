@@ -34,6 +34,7 @@ section.banner {
     -moz-background-size: cover;
     -moz-background-size: cover;
     -msn-background-size: cover;
+    grid-row: flex;
 }
 
 h1.intro {
@@ -55,6 +56,7 @@ h4 {
 #callcenter1{
     font-size: 18px;
     text-align: center;
+   
 }
 
 #imgcall{
@@ -62,6 +64,7 @@ h4 {
     box-shadow: 10px 10px 25px #000000;
     padding: 10px;
     margin: 10px;
+
 }
 
 #imgcall:hover{
@@ -71,7 +74,7 @@ h4 {
 #alphagroup2 {
     font-size: 18px;
     text-align: center;
-        padding: 35px;
+    padding: 35px;
 }
 
 #imagizq {
@@ -93,8 +96,8 @@ h4 {
 #imgmujerrural{
     transition: 400rem;
     box-shadow: 10px 10px 25px #000000;
-    padding: 5%;
-    margin: 6%; 
+    padding: 10px;
+    margin: 10px; 
 }
 
 #imgmujerrural:hover{
@@ -104,6 +107,7 @@ h4 {
 #carouselExampleControls{
     width: 50%;
     height: 50%;
+   
 }
 
 .progress-bar{

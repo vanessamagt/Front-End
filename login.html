@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="./Bootstrap/bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/3e528efe9c.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+
+    <!--seccion navbar-->
+    <section id="navbar">
+        <nav class="navbar navbar-expander-log bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html" target="_blank">
+                    <img src="./assets/css/img/Argentinaprograma2022.png" alt="logo Argentina Programa" class="w-100">
+                </a>
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-group-item"><a href="https://linkedin.com" target="_blank"><i
+                                class="fa-brands fa-linkedin fa-2x text-white"></i></a></li>
+                    <li class="list-group-item"><a href="https://instagram.com" target="_blank"><i
+                                class="fa-brands fa-instagram fa-2x text-white"></i></a></li>
+                    <li class="list-group-item"><a href="https://github.com" target="_blank"><i
+                                class="fa-brands fa-github fa-2x text-white"></i></a></li>
+                    <li class="list-group-item">
+                        <!-- Button que abre el login -->
+                        <a href="./login.html"><i class="fa-solid fa-lock fa-2x text-white"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <!--formulario de login-->
+    <section class="form-login">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-2">
+                </div>
+                <div class="col-8 formulario-login">
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="inputEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputPassword2" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="inputPassword2">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary">Ingresar</button>
+                    </div>
+                    <small>Si no tenes cuenta <a href="./registro.html"> registrate</a></small>
+                </div>
+                <div class="col-2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer-->
+
+    <footer class="bg-black text-white text-center fs-6">
+        <div class="pt-3">
+            <p>&copy Copyright Vanesa Magali Trobbiani - 2022</p>
+        </div>
+    </footer>
+
+    <!--javascript-->
+    <script src="./Bootstrap/bootstrap-5.2.2-dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
